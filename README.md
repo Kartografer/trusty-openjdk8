@@ -4,7 +4,7 @@
 
 Docker container with OpenJDK 8 installed on Ubuntu Trusty.
 
-Base image is (buildpack-deps:trusty-curl)[https://hub.docker.com/_/buildpack-deps/]
+Base image is [buildpack-deps:trusty-curl](https://hub.docker.com/_/buildpack-deps/)
 
 ## Overview
 This image installs a minimum amount of packages necessary to install Java. May require additional packages depending on the use case. It also creates a JAVA_HOME env to be compatible with other tools requiring Java home to be set.
